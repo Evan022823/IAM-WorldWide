@@ -1,0 +1,43 @@
+body {
+    background-color: #2f3035;
+   
+}
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+nav {
+    background-color: red;
+    height: 40px;   
+}
+main {
+    
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+}
+footer {
+    background-color: greenyellow;
+    height: 100px;   
+}
+
+h1 {
+    font-size: 50px;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 12px;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
