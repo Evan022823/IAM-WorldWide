@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 nav {
-    background-color: red;
+    background-color: rgba(17, 105, 17, 0.719);
     height: 40px;   
 }
 main {
@@ -27,8 +27,14 @@ main {
     
 }
 footer {
-    background-color: greenyellow;
-    height: 100px;   
+    background-color: rgb(57, 87, 13);
+    height: 100px; 
+    color:  white;
+    text-align: center;
+    font-size: small;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -41,3 +47,39 @@ p {
     color: white;   
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #1b241e; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: rgb(57, 87, 13); /* Add an active/current color */
+  }
+  button {
+    background-color: rgb(57, 87, 13); /* Add an active/current color */
+    color: rgb(255, 255, 255); /* White text color */
+    font-size: 15px; /* Increased font size */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+  }
+  button:hover{
+    background-color: rgb(255, 255, 255); /* Add a hover color */
+    color: rgb(57, 87, 13); /* White text color */
+    font-size: 15px; /* Increased font size */
+  }
