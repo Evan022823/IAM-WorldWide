@@ -1,14 +1,16 @@
 body {
     background-color: #2f3035;
+    height: 100%;
+    width: 100%;
    
 }
 .container {
-    width: 1024px;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     
 }
-
 header {
     height: 118px;
     text-align: center;
@@ -19,7 +21,7 @@ nav {
 }
 main {
     
-    height: 400px;
+    height: 100%;
     text-align: center;
     padding-top: 40px;
     padding-left: 240px;
@@ -28,7 +30,7 @@ main {
 }
 footer {
     background-color: rgb(57, 87, 13);
-    height: 100px; 
+    height: 100%; 
     color:  white;
     text-align: center;
     font-size: small;  
@@ -41,6 +43,11 @@ h1 {
     font-size: 50px;
     color: white;   
     font-family: Arial, Helvetica, sans-serif;
+
+}
+span {
+    color: rgb(20, 100, 20);
+    text-align: center;
 }
 p {
     font-size: 12px;
