@@ -1,7 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+  
+}
 body {
-    background-color: #2f3035;
-    height: 100%;
-    width: 100%;
+    margin: 0px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
    
 }
 .container {
@@ -12,13 +22,58 @@ body {
     
 }
 header {
-    height: 118px;
-    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    
 }
-nav {
-    background-color: rgba(17, 105, 17, 0.719);
-    height: 40px;   
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
 }
+
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px, 10px;
+
+}
+.navbar li a {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease 0s;
+  
+}
+.navbar li a:hover {
+  color: rgb(69, 105, 15);
+}
+
+button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 80px;
+  margin-left: 20px;
+  color: aliceblue;
+  padding: 9px;
+  background-color: rgb(57, 87, 13);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgb(57, 87, 13, 0.8);
+}
+
 main {
     
     height: 100%;
@@ -28,6 +83,9 @@ main {
     padding-right: 240px;
     
 }
+
+
+
 footer {
     background-color: rgb(57, 87, 13);
     height: 100%; 
@@ -39,9 +97,13 @@ footer {
     padding-bottom: 20px;
 }
 
+
+
+
+
 h1 {
     font-size: 50px;
-    color: white;   
+    color:rgb(20, 100, 20);  
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -51,42 +113,7 @@ span {
 }
 p {
     font-size: 12px;
-    color: white;   
+    color: rgb(20, 100, 20);  
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.icon-bar {
-    width: 100%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-  }
-  
-  .icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 20px; /* Increased font size */
-  }
-  
-  .icon-bar a:hover {
-    background-color: #1b241e; /* Add a hover color */
-  }
-  
-  .active {
-    background-color: rgb(57, 87, 13); /* Add an active/current color */
-  }
-  button {
-    background-color: rgb(57, 87, 13); /* Add an active/current color */
-    color: rgb(255, 255, 255); /* White text color */
-    font-size: 15px; /* Increased font size */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: none;
-  }
-  button:hover{
-    background-color: rgb(255, 255, 255); /* Add a hover color */
-    color: rgb(57, 87, 13); /* White text color */
-    font-size: 15px; /* Increased font size */
-  }
