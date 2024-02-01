@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252A;
-  
+  background-color: rgb(36, 35, 35);
 }
 body {
     margin: 0px;
@@ -76,25 +77,15 @@ button:hover {
 
 main {
     
-    height: 100%;
-    text-align: center;
     padding-top: 40px;
-    padding-left: 240px;
-    padding-right: 240px;
-    
 }
 
 
 
 footer {
-    background-color: rgb(57, 87, 13);
-    height: 100%; 
-    color:  white;
-    text-align: center;
-    font-size: small;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
+   
+
 }
 
 
@@ -102,18 +93,29 @@ footer {
 
 
 h1 {
-    font-size: 50px;
-    color:rgb(20, 100, 20);  
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 120px;
+    color:rgb(252, 255, 252);  
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 span {
     color: rgb(20, 100, 20);
     text-align: center;
 }
 p {
-    font-size: 12px;
-    color: rgb(20, 100, 20);  
+    font-size: 20px;
+    color: rgb(255, 255, 255);  
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 50px;
 }
 
+.button-hover  {
+
+  padding-left: 900px;
+  margin-top: 50px;
+}
